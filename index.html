@@ -1,60 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Paxrick</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f7f7f7;
-            font-family: Arial, sans-serif;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: #fff;
-            padding: 40px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            text-align: center;
-            max-width: 500px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1 {
-            margin: 0 0 10px;
-        }
-        .claim {
-            font-size: 1.1em;
-            margin-bottom: 20px;
-            color: #666;
-        }
-        footer {
-            margin-top: 30px;
-            font-size: 0.8em;
-            color: #999;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal corner of the web by Paxrick. focus. balance. progress.">
+<title>Paxrick</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<style>
+    body {
+        background-color: #f4f4f4;
+        font-family: 'Inter', 'Segoe UI', 'Lato', sans-serif;
+        color: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        background-color: #fff;
+        padding: 40px 60px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        max-width: 500px;
+    }
+    h1 {
+        margin: 0;
+        font-size: 2.4em;
+        font-weight: 600;
+        color: #222;
+    }
+    .claim {
+        margin: 15px 0 30px;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        color: #666;
+        text-transform: lowercase;
+    }
+    .email {
+        display: inline-block;
+        margin-bottom: 30px;
+        font-size: 1em;
+        color: #005f99;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.2s ease;
+    }
+    .email:hover {
+        border-color: #005f99;
+    }
+    .footer {
+        font-size: 0.85em;
+        color: #aaa;
+        line-height: 1.4em;
+    }
+</style>
 </head>
 <body>
     <div class="container">
         <h1>This is Paxrick.</h1>
         <div class="claim">focus. balance. progress.</div>
-        <p><a href="mailto:mail@paxrick.com">mail@paxrick.com</a></p>
-        <footer>
+        <a href="mailto:mail@paxrick.com" class="email">mail@paxrick.com</a>
+        <div class="footer">
             &copy; 2025 Paxrick<br>
-            This is a purely private, non‑commercial website (§ 5 TMG).
-        </footer>
+            purely private & non‑commercial (§ 5 TMG)
+        </div>
     </div>
 </body>
 </html>
